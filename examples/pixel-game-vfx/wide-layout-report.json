@@ -1,0 +1,36 @@
+{
+  "wide-chinese": {
+    "size": [
+      1280,
+      288
+    ],
+    "aspectRatio": "40:9",
+    "heightAt960pxReadmeWidth": 216,
+    "previousHeightAt960pxReadmeWidth": 320,
+    "headlineHeightAt960pxReadmeWidth": 72,
+    "previousHeadlineHeightAt960pxReadmeWidth": 48,
+    "headlineDisplayedScaleRatio": 1.5,
+    "textSafeAreaWidthFraction": 0.63125,
+    "translatedMaterialMasksExact": true,
+    "translatedRoomGeometryExact": true,
+    "textUnchanged": true,
+    "fontUnchanged": true
+  },
+  "wide-mixed": {
+    "size": [
+      1280,
+      288
+    ],
+    "aspectRatio": "40:9",
+    "heightAt960pxReadmeWidth": 216,
+    "previousHeightAt960pxReadmeWidth": 320,
+    "headlineHeightAt960pxReadmeWidth": 72,
+    "previousHeadlineHeightAt960pxReadmeWidth": 48,
+    "headlineDisplayedScaleRatio": 1.5,
+    "textSafeAreaWidthFraction": 0.63125,
+    "translatedMaterialMasksExact": true,
+    "translatedRoomGeometryExact": true,
+    "textUnchanged": true,
+    "fontUnchanged": true
+  }
+}

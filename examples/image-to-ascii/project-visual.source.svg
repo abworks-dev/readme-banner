@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="visual-title visual-description">
+  <title id="visual-title">Folded signal</title>
+  <desc id="visual-description">An original tilted hexagonal banner emblem. A continuous cyan, teal and indigo front surrounds three large transparent code-shaped cutouts. A dark indigo folded extrusion gives the badge depth above a quiet, separate ground shadow. There are no documents, letters or background panel.</desc>
+  <defs>
+    <linearGradient id="front-gradient" x1="350" y1="155" x2="840" y2="615" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5af0d5"/>
+      <stop offset=".3" stop-color="#20cbd0"/>
+      <stop offset=".65" stop-color="#3989e7"/>
+      <stop offset="1" stop-color="#6451e3"/>
+    </linearGradient>
+    <linearGradient id="side-gradient" x1="395" y1="480" x2="885" y2="595" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#253970"/>
+      <stop offset=".5" stop-color="#22285e"/>
+      <stop offset="1" stop-color="#171d48"/>
+    </linearGradient>
+    <linearGradient id="front-sheen" x1="390" y1="145" x2="620" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="shadow-gradient">
+      <stop stop-color="#151d43" stop-opacity=".2"/>
+      <stop offset=".55" stop-color="#151d43" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#151d43" stop-opacity="0"/>
+    </radialGradient>
+    <!-- This compound path is the complete front face, including its three holes.
+         The standalone front mask repeats this exact d and transform; no stroke expands it. -->
+    <path id="front-geometry" fill-rule="evenodd" clip-rule="evenodd" d="M460 130H740Q766 130 779 152L890 348Q903 370 890 392L779 588Q766 610 740 610H460Q434 610 421 588L310 392Q297 370 310 348L421 152Q434 130 460 130Z M497 258L535 302L454 370L535 438L497 482L366 370Z M600 245H654L594 495H540Z M703 258L834 370L703 482L665 438L746 370L665 302Z"/>
+    <clipPath id="front-clip">
+      <use href="#front-geometry"/>
+    </clipPath>
+  </defs>
+
+  <g id="ground-shadow">
+    <ellipse cx="630" cy="706" rx="295" ry="38" fill="url(#shadow-gradient)"/>
+  </g>
+
+  <g id="banner-emblem" transform="rotate(-12 600 370)">
+    <!-- Only the lower/right perimeter is extruded. Nothing sits behind the cutouts. -->
+    <g id="extrusion">
+      <path d="M890 348Q903 370 890 392L779 588Q766 610 740 610H460Q434 610 421 588L310 392L334 450L445 646Q458 668 484 668H764Q790 668 803 646L914 450Q927 428 914 406Z" fill="url(#side-gradient)"/>
+      <path d="M740 610Q766 610 779 588L890 392Q903 370 890 348L914 406Q927 428 914 450L803 646Q790 668 764 668Z" fill="#171d48" fill-opacity=".4"/>
+    </g>
+
+    <g id="front-face">
+      <use href="#front-geometry" fill="url(#front-gradient)"/>
+      <!-- Broad, quiet lighting stays clipped to the same perforated front surface. -->
+      <g clip-path="url(#front-clip)">
+        <path d="M295 112H801L644 610H295Z" fill="url(#front-sheen)"/>
+        <path d="M461 142H739Q757 142 768 161L877 354" stroke="#c3fff2" stroke-opacity=".4" stroke-width="8" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>

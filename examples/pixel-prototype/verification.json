@@ -1,0 +1,44 @@
+{
+  "logicalSize": [
+    480,
+    160
+  ],
+  "exportSize": [
+    960,
+    320
+  ],
+  "fps": 12.5,
+  "frameCount": 30,
+  "durationMs": 2400,
+  "effect": "scifi/energy-core",
+  "seed": 35,
+  "region": {
+    "x": 324,
+    "y": 19,
+    "w": 128,
+    "h": 116
+  },
+  "sources": {
+    "pxl": "21fee41f7ecce00bc868d7567f24ffd0f3acc8fa",
+    "pixelfx": "a84159688af3ca37a4be05a0d422b94451b2e24e",
+    "pixelbolt": "928287703637dc9d6b646adb1f4d2963fd28f6eb"
+  },
+  "variants": {
+    "dark": {
+      "outsideChanges": 0,
+      "animatedCellComparisons": 101480,
+      "pngBytes": 13798,
+      "apngBytes": 436365,
+      "gifBytes": 340744,
+      "frameHash": "d1d6fd5ff8ca5eeaf74f114bfee63d1a5559301dc69f4020d45ff68d188a7a71"
+    },
+    "light": {
+      "outsideChanges": 0,
+      "animatedCellComparisons": 84019,
+      "pngBytes": 11548,
+      "apngBytes": 361731,
+      "gifBytes": 309128,
+      "frameHash": "9fc01c6430c6d467296f02ef0beb9702835a810a0d5ec7dfd893e145e4d28e51"
+    }
+  }
+}

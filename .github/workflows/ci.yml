@@ -23,4 +23,6 @@ jobs:
       - run: npm test
       - run: node bin/readme-banner.mjs generate --readme README.md --check
       - run: node examples/generate-gallery.mjs --check
+      - run: node examples/image-to-ascii/generate.mjs --check
+      - run: node examples/pixel-game-vfx/fonts/verify-font.mjs
       - run: npm pack --dry-run

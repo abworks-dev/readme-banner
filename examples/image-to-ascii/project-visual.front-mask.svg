@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none" role="img" aria-labelledby="mask-title mask-description">
+  <title id="mask-title">Folded signal front-face mask</title>
+  <desc id="mask-description">Only the emblem's front face is white. The code-shaped holes, extrusion, ground shadow and all surrounding space are transparent. Geometry and rotation exactly match the source illustration.</desc>
+  <g id="front-face" transform="rotate(-12 600 370)">
+    <path fill="#ffffff" fill-rule="evenodd" d="M460 130H740Q766 130 779 152L890 348Q903 370 890 392L779 588Q766 610 740 610H460Q434 610 421 588L310 392Q297 370 310 348L421 152Q434 130 460 130Z M497 258L535 302L454 370L535 438L497 482L366 370Z M600 245H654L594 495H540Z M703 258L834 370L703 482L665 438L746 370L665 302Z"/>
+  </g>
+</svg>

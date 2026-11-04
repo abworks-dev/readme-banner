@@ -1,0 +1,38 @@
+{
+  "chinese": {
+    "fontId": "fusion-pixel-12px-monospaced-zh_hans@2026.10.25",
+    "fontSha256": "41e1910f7836be732d404e01903bbba7d4a4c0bb7b7fa170b72b7976a070d3b9",
+    "variants": {
+      "dark": {
+        "changedPixelsOutsideTextSlots": 0,
+        "nativeEffectMatchesEnglish": true,
+        "materialMasksMatchEnglish": true,
+        "typographyChangedLogicalPixels": 2892
+      },
+      "light": {
+        "changedPixelsOutsideTextSlots": 0,
+        "nativeEffectMatchesEnglish": true,
+        "materialMasksMatchEnglish": true,
+        "typographyChangedLogicalPixels": 2892
+      }
+    }
+  },
+  "mixed": {
+    "fontId": "fusion-pixel-12px-monospaced-zh_hans@2026.10.25",
+    "fontSha256": "41e1910f7836be732d404e01903bbba7d4a4c0bb7b7fa170b72b7976a070d3b9",
+    "variants": {
+      "dark": {
+        "changedPixelsOutsideTextSlots": 0,
+        "nativeEffectMatchesEnglish": true,
+        "materialMasksMatchEnglish": true,
+        "typographyChangedLogicalPixels": 3088
+      },
+      "light": {
+        "changedPixelsOutsideTextSlots": 0,
+        "nativeEffectMatchesEnglish": true,
+        "materialMasksMatchEnglish": true,
+        "typographyChangedLogicalPixels": 3088
+      }
+    }
+  }
+}

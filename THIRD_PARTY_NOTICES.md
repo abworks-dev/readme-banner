@@ -50,6 +50,12 @@ SOFTWARE.
 
 上游内置 pieces 可能包含产品、公司、项目或发行版的名称与标志。**软件的 MIT 许可不自动授予商标、品牌使用或背书权利。** 选择品牌 art 前应核对对应权利人的使用规范；不要暗示合作、认证或官方身份。默认文档示例使用 `donut` 这样的非品牌图案，不代表所有内置图案都适用于任意用途。
 
+## 实验性像素样例与字体
+
+像素样例是独立源码与预生成资产，不是主 CLI 的运行时依赖或已发布预设。pxl、pixelfx、Pixelbolt 的固定来源、完整 MIT 许可与素材署名见[工坊样例声明](<examples/pixel-game-vfx/THIRD_PARTY_NOTICES.md>)和[早期组合样例声明](<examples/pixel-prototype/THIRD_PARTY_NOTICES.md>)；美术参考图说明见[参考资产归属](<docs/assets/pixelfx-style-analysis/README.md>)。
+
+仓库内另附的 **Fusion Pixel Font 12px monospaced zh_hans** 字体数据使用 **SIL Open Font License 1.1**，不受本项目 MIT 许可替代。保留[完整字体许可](<examples/pixel-game-vfx/fonts/LICENSE-OFL.txt>)及[字体说明](<examples/pixel-game-vfx/fonts/README.md>)列出的继承声明；版本与哈希见[字体清单](<examples/pixel-game-vfx/fonts/manifest.json>)。未使用或分发 pixelfx 画廊的专有 Patch Pixel 字体。
+
 ## 开发依赖
 
 构建 / 类型检查使用 TypeScript（Apache-2.0）、`@types/node`（MIT）及其 `undici-types`（MIT）类型依赖。它们的锁定版本与依赖关系见 [package-lock.json](<package-lock.json>)；再分发工具链或其源码时须另外保留各包自己的完整许可。不要把运行时 `ascii.rest` 的 MIT 声明当作整个工具链的统一许可。

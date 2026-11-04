@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "fusion-pixel-12px-monospaced-zh_hans@2026.10.25",
+  "family": "Fusion Pixel 12px Mono zh_Hans",
+  "license": "SIL Open Font License 1.1",
+  "copyright": "Copyright (c) 2022, TakWolf (https://takwolf.com)",
+  "source": {
+    "repository": "https://github.com/TakWolf/fusion-pixel-font",
+    "release": "2026.10.25",
+    "commit": "3266d59c25c3fa8f8b5e163b29736a706fd9ab6f",
+    "releaseUrl": "https://github.com/TakWolf/fusion-pixel-font/releases/tag/2026.10.25",
+    "archiveUrl": "https://github.com/TakWolf/fusion-pixel-font/releases/download/2026.10.25/fusion-pixel-font-12px-monospaced-bdf-v2026.10.25.zip",
+    "archiveBytes": 37422778,
+    "archiveSha256": "d8788cf5ffd6a2dabec397c33c878261195fb9146cdb67d8afd418fe73db15bd",
+    "archiveEntry": "fusion-pixel-12px-monospaced-zh_hans.bdf",
+    "bdfBytes": 5332038,
+    "bdfSha256": "bdb520006cddacccc1d3f780d5fab79007a4d6d1f3559d04665e652af4cdf50f"
+  },
+  "asset": {
+    "filename": "fusion-pixel-12px-monospaced-zh_hans-v2026.10.25.bdf.gz",
+    "format": "BDF 2.1, losslessly gzip-compressed",
+    "bytes": 652833,
+    "sha256": "41e1910f7836be732d404e01903bbba7d4a4c0bb7b7fa170b72b7976a070d3b9",
+    "glyphCount": 37857,
+    "pixelSize": 12,
+    "ascent": 10,
+    "descent": 2,
+    "lineHeight": 12,
+    "halfwidthAdvance": 6,
+    "fullwidthAdvance": 12,
+    "maxInkAscent": 15,
+    "maxInkDescent": 7,
+    "oversizedGlyphs": [
+      "U+3031",
+      "U+3032"
+    ]
+  },
+  "conversion": {
+    "kind": "Lossless compression only; no glyphs subsetted, renamed, rasterized, or changed",
+    "command": "node examples/pixel-game-vfx/fonts/acquire-fusion-font.mjs",
+    "node": "v24.22.1",
+    "zlib": "1.3.2.1-motley-285e94b",
+    "gzipLevel": 9
+  },
+  "notices": [
+    {
+      "archiveEntry": "OFL.txt",
+      "filename": "LICENSE-OFL.txt",
+      "bytes": 4418,
+      "sha256": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63"
+    },
+    {
+      "archiveEntry": "LICENSES/ark-pixel/OFL.txt",
+      "filename": "LICENSES/ark-pixel/OFL.txt",
+      "bytes": 4412,
+      "sha256": "3ab41567e68e3988ba1ef16dd2644eca95ca5648ea12e7d46e6287fc0bbe5aee"
+    },
+    {
+      "archiveEntry": "LICENSES/cubic-11/OFL.txt",
+      "filename": "LICENSES/cubic-11/OFL.txt",
+      "bytes": 5364,
+      "sha256": "2b6e5938e5cffa0b9e183bd05f8c363e174e7ebed1a0556e2855fd1707fa2188"
+    },
+    {
+      "archiveEntry": "LICENSES/galmuri/LICENSE.txt",
+      "filename": "LICENSES/galmuri/LICENSE.txt",
+      "bytes": 4360,
+      "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1"
+    }
+  ]
+}
