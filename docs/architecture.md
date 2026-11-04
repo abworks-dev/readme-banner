@@ -112,7 +112,7 @@ registry.register(myPreset); // myPreset implements BannerPreset
 
 - 无必需环境变量、访问令牌或服务密钥；项目 JSON 只存展示数据。不要把秘密写进标题或副标题，因为它们会进入可公开的 SVG / README。
 - 源码运行：在工具目录执行 `npm install`，`prepare` 调用 TypeScript 构建；之后用本地 Node 入口搭配目标 `--cwd`。
-- GitHub 安装入口：`npx --yes --package github:abworks-dev/readme-banner#v0.1.0 readme-banner …`，需要 Git，且仓库和标签必须已可访问。`@readme-banner/cli` 只是未发布的包名占位。
+- GitHub 安装入口：`npx --yes --package github:abworks-dev/readme-banner#v0.1.0 readme-banner …`，需要 Git，且仓库和标签必须已可访问。`@readme-banner/cli` 只是未发布的包名占位。遇到 `EALLOWGIT` 时，仅在用户已授权且组织策略允许的前提下，支持该选项的 npm 可单次添加 `--allow-git=root`；不修改全局 npm 配置，详见 [README](<../README.md>)。
 - [package.json](<../package.json>) 声明 `npm run build`、`npm run check`、`npm test`；这里记录的是验证入口，不声称它们已经通过，也不虚构 CI 状态。
 - 发布检查应覆盖：无 README 参数不编辑 README；init 只写配置且不静默覆盖；浅 / 深产物与嵌入；根外 / symlink / 硬链接拒绝；编码与 HTML 转义；非法 glyph / 配置拒绝；缺失或过期产物的 `--check` 无写入；registry 扩展与重复 id 拒绝。这里是需核对的契约，不是测试覆盖率报告。
 

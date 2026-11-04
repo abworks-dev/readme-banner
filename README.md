@@ -59,6 +59,14 @@ npx --yes --package github:abworks-dev/readme-banner#v0.1.0 readme-banner genera
 
 若用户明确要求插入 README，最后一条才增加 `--readme "README.md"`。不要使用看似已发布 npm 包的 `npx @readme-banner/cli`；它不是当前的安装方式。版本固定只固定工具代码，不代表安装过程不会执行依赖或构建脚本，应只运行信任的来源。
 
+若 npm 报 `EALLOWGIT`，表示当前配置不允许 Git 来源安装。**仅在用户已授权运行这个可信仓库、且组织策略允许时**，支持该选项的 npm 可对单次命令显式选择直接 Git 来源：
+
+```sh
+npx --allow-git=root --yes --package github:abworks-dev/readme-banner#v0.1.0 readme-banner --help
+```
+
+后续 `init` / `generate` 同样把该选项放在 `npx` 后。不要使用 `npm config set` 放开全局策略；未获授权或受组织策略限制时停止并询问。旧版 npm 不识别该选项时使用前面的普通命令或经授权的源码安装。
+
 ## 配置
 
 默认配置文件为目标仓库根目录下的 `banner.config.json`：
