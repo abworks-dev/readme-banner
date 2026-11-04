@@ -1,0 +1,23 @@
+{
+  "name": "@readme-banner/cli",
+  "version": "0.1.0",
+  "description": "Config-driven README banners with extensible renderers, themes, and agent skills.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "bin": { "readme-banner": "bin/readme-banner.mjs" },
+  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
+  "files": ["bin", "dist", "skills", "README.md", "LICENSE", "THIRD_PARTY_NOTICES.md"],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "prepare": "npm run build"
+  },
+  "repository": { "type": "git", "url": "git+https://github.com/abworks-dev/readme-banner.git" },
+  "homepage": "https://github.com/abworks-dev/readme-banner#readme",
+  "bugs": { "url": "https://github.com/abworks-dev/readme-banner/issues" },
+  "keywords": ["readme", "banner", "ascii", "cli", "agent-skill"],
+  "dependencies": { "ascii.rest": "0.4.0" },
+  "devDependencies": { "@types/node": "^22.19.0", "typescript": "^5.9.3" }
+}

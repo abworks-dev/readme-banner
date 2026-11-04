@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "preset": "ascii",
+  "theme": "ocean",
+  "title": "readme-banner",
+  "outputDir": "assets/banner",
+  "options": {
+    "font": "block",
+    "effect": "glint",
+    "art": "donut",
+    "place": "left"
+  },
+  "tagline": "Reusable banners for every repository"
+}
